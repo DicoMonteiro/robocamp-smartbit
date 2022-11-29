@@ -5,8 +5,11 @@ Documentation        Suite que centraliza todas as keywords implementadas
 Library              Browser
 Library              pages/libs/get_date.py
 Library              JSONLibrary
+Library              RequestsLibrary
 
 Resource             database.resource
+Resource             services/sessions.resource
+Resource             services/students.resource
 
 Resource             pages/login.resource
 Resource             pages/enrolls.resource
