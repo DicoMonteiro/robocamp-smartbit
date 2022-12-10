@@ -1,0 +1,13 @@
+{
+    "student": {
+        "name": "Adriano Almeida",
+        "email": "adriano@teste.com",
+        "age": "37",
+        "feet_tall": 1.78,
+        "weight": 93
+    },
+    "enroll": {
+        "plan": "Smart"
+    },
+    "help": "Como faço para ganhar massa muscular?"
+}

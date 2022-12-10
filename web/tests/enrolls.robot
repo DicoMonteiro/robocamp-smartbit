@@ -6,7 +6,7 @@ Resource             ../resources/base.resource
 
 *** Test Cases ***
 Deve matricular um aluno
-    
+
     ${admin}      Get Fixture    admin
     ${student}    Get Fixture    falcao
     
