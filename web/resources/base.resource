@@ -16,13 +16,16 @@ Resource             pages/enrolls.resource
 
 Resource             components/navbar.resource
 Resource             components/toast.resource
+Resource             components/notification.resource
+Resource             components/popDoubt.resource
 
 
 *** Keywords ***
 #Helpers
 Go To Login Page
-    New Browser    headless=false    browser=chromium
-    New Page       http://localhost:3000/
+    New Browser          headless=false    browser=${BROWSER}
+    New Page             http://localhost:3000/
+    Set Viewport Size    1280    720
 
 Do Login
     [Arguments]    ${user}
@@ -41,3 +44,6 @@ Get Fixture
     ...           encoding=UTF-8
 
     [Return]    ${fixtue}
+
+Screenshot
+    Take Screenshot

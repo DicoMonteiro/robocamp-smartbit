@@ -4,6 +4,9 @@ Documentation        Suite de testes de matriculas de alunos
 
 Resource             ../resources/base.resource
 
+Test Setup       Go To Login Page
+Test Teardown    Screenshot
+
 *** Test Cases ***
 Deve matricular um aluno
 
@@ -15,8 +18,6 @@ Deve matricular um aluno
     ${token_session}    Get Service Token    ${admin}
     POST New Student    ${token_session}     ${student}
 
-
-    Go To Login Page
     Do Login    ${admin}
 
     Sleep    1

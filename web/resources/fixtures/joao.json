@@ -1,0 +1,13 @@
+{
+    "student": {
+        "name": "João da Silva",
+        "email": "joao@ig.com.br",
+        "age": 22,
+        "feet_tall": 1.78,
+        "weight": 80
+    },
+    "enroll": {
+        "plan": "Smart"
+    },
+    "question": "Como faço para ganhar massa muscular?"
+}

@@ -15,3 +15,11 @@ Verify Toaster
     Wait For Elements State
     ...            css=.Toastify__toast-body div
     ...            detached    10
+
+Verify Toaster Notification
+    [Arguments]    ${alert_credentials}
+
+    Wait For Elements State
+    ...            css=.Toastify__toast-body div >> text=${alert_credentials}
+    ...            visible
+    ...            15
